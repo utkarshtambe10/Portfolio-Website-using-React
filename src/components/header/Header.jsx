@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <header className="header">
             <nav className="nav container">
-                <a href="index.html" className="nav_logo">Smith</a>
+                <a href="index.html" className="nav_logo">Utkarsh</a>
 
                 <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}>
                     <ul className="nav_list grid">
@@ -57,7 +57,7 @@ const Header = () => {
                 </div>
             </nav>
         </header>
-    )
+    );
 }
 
 export default Header;
