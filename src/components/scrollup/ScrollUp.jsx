@@ -8,7 +8,8 @@ const ScrollUp = () => {
         add the show-scroll class to the a tag with the scrollup class*/
         if (this.scrollY >= 560) scrollUp.classList.add("show-scroll");
         else scrollUp.classList.remove("show-scroll");
-    })
+    });
+    
     return (
         <a href="#" className="scrollup">
             <i className="uil uil-arrow-up scrollup_icon"></i>
