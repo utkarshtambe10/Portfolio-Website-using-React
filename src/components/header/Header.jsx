@@ -17,7 +17,7 @@ const Header = () => {
     const [activeNav, setActiveNav] = useState("#home");
 
     return (
-        <header className="header">
+        <header className="header" id="header">
             <nav className="nav container">
                 <a href="index.html" className="nav_logo">Utkarsh</a>
 
@@ -52,8 +52,8 @@ const Header = () => {
                         </li>
 
                         <li className="nav_item">
-                            <a href="#portfolio" onClick={() => setActiveNav('#portfolio')}
-                                className={activeNav === "#portfolio" ? "nav_link active-link" : "nav_link"}>
+                            <a href="#qualifications" onClick={() => setActiveNav('#qualifications')}
+                                className={activeNav === "#qualifications" ? "nav_link active-link" : "nav_link"}>
                                 <i className="uil uil-scenery nav_icon"></i> Portfolio
                             </a>
                         </li>

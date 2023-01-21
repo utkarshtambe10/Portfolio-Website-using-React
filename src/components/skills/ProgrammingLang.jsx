@@ -1,44 +1,36 @@
 import React from 'react';
 
-const Backend = () => {
+const ProgrammingLang = () => {
     return (
         <div className="skills_content">
-            <h3 className="skills_title">Backend Development</h3>
+            <h3 className="skills_title">Programming Languages</h3>
             <div className="skills_box">
                 <div className="skills_group">
                     <div className="skills_data">
-                        <i className="bx bxl-nodejs"></i>
+                        <i className="bx bxl-c-plus-plus"></i>
 
                         <div>
-                            <h3 className="skills_name">Node.js</h3>
+                            <h3 className="skills_name">C/C++</h3>
                             <span className="skills_level">Intermediate</span>
                         </div>
                     </div>
 
                     <div className="skills_data">
-                        <i className="bx bx-link"></i>
+                        <i className="bx bxl-python"></i>
+
                         <div>
-                            <h3 className="skills_name">Express.js</h3>
+                            <h3 className="skills_name">Python</h3>
                             <span className="skills_level">Intermediate</span>
                         </div>
                     </div>
                 </div>
 
                 <div className="skills_group">
-                <div className="skills_data">
-                        <i className="bx bxl-mongodb"></i>
-
-                        <div>
-                            <h3 className="skills_name">MongoDB</h3>
-                            <span className="skills_level">Intermediate</span>
-                        </div>
-                    </div>
-                    
                     <div className="skills_data">
-                        <i className="bx bxl-firebase"></i>
+                        <i className="bx bx-data"></i>
 
                         <div>
-                            <h3 className="skills_name">Firebase</h3>
+                            <h3 className="skills_name">SQL</h3>
                             <span className="skills_level">Basic</span>
                         </div>
                     </div>
@@ -48,4 +40,4 @@ const Backend = () => {
     );
 }
 
-export default Backend;
+export default ProgrammingLang;

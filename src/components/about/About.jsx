@@ -16,9 +16,9 @@ const About = () => {
                 <div className="about_data">
                     <Info />
 
-                    <p className="about_description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Quas hic, cum, rem dicta nam et adipisci itaque, doloremque quibusdam voluptatum possimus perspiciatis nihil eaque magnam laborum beatae impedit.
-                        Veritatis deleniti accusantium facilis itaque laudantium soluta voluptates dolore tempora, fugit dicta, vero eius quam nobis? Deleniti.
+                    <p className="about_description">I am <b>versatile</b> individual with a <b>diverse</b> set of skills.
+                        I'm able to <b>code</b> and <b>build websites</b>, as well as have <b>strong knowledge</b> in both <b>Machine learning</b>, <b>Deep learning</b> and <b>Data Science</b>. Also <b>passionate</b> about <b>research</b>, making a valuable asset to any team.
+                        <b> Open</b> to <u>Internships</u>, <u>Full-time roles</u> and <u>Projects</u>.
                     </p>
 
                     <a /*download=""*/ href={CV} className="button button--flex" target="_blank" rel="noreferrer">View my Resume

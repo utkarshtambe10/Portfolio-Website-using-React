@@ -36,14 +36,14 @@
 }
 
 .skills .bx {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--title-color);
 }
 
 .skills_name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    line-height: 18px;
+    line-height: 25px;
 }
 
 .skills_level {
@@ -78,5 +78,6 @@
 
     .skills_name {
         font-size: var(--small-font-size);
+
     }
 }

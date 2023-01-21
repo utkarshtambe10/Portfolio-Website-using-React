@@ -28,27 +28,27 @@ const Contact = () => {
                             <h3 className="contact_card-title">Email</h3>
                             <span className="contact_card-data">utkarsh.tambe33@gmail.com</span>
 
-                            <a href="mailto:examplemail@gmail.com" className="contact_button">Write me
+                            <a href="mailto:utkarsh.tambe33@gmail.com" className="contact_button">Mail me
                                 <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
                         </div>
 
                         <div className="contact_card">
-                            <i className="bx bxl-whatsapp contact_card-icon"></i>
+                            <i className="bx bxl-linkedin-square contact_card-icon"></i>
 
-                            <h3 className="contact_card-title">Whatsapp</h3>
-                            <span className="contact_card-data">+91 8855000000</span>
+                            <h3 className="contact_card-title">LinkedIn</h3>
+                            <span className="contact_card-data">utkarshtambe10</span>
 
-                            <a href="https://api.whatsapp.com/send?phone=8855000000&text=Hello, more information" className="contact_button">Write me
+                            <a href="https://www.linkedin.com/messaging/thread/new/" className="contact_button" target="_blank" rel="noreferrer">Text me
                                 <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
                         </div>
 
                         <div className="contact_card">
-                            <i className="bx bxl-messenger contact_card-icon"></i>
+                            <i className="bx bxl-slack contact_card-icon"></i>
 
-                            <h3 className="contact_card-title">Messenger</h3>
-                            <span className="contact_card-data">user.fb123</span>
+                            <h3 className="contact_card-title">Slack</h3>
+                            <span className="contact_card-data">U03T3GGAQTA</span>
 
-                            <a href="https://m.me/blabla" className="contact_button">Write me
+                            <a href="https://slack-1u94437.slack.com/team/U03T3GGAQTA" className="contact_button" target="_blank" rel="noreferrer">Interact with me
                                 <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
                         </div>
                     </div>
@@ -60,18 +60,18 @@ const Contact = () => {
                     <form ref={form} onSubmit={sendEmail} className="contact_form">
                         <div className="contact_form-div">
                             <label className="contact_form-tag">Name</label>
-                            <input type="text" name="name" className="contact_form-input" placeholder='Insert your Name here' />
+                            <input type="text" name="name" className="contact_form-input" placeholder='Insert your name here' />
                         </div>
 
                         <div className="contact_form-div">
                             <label className="contact_form-tag">Email</label>
-                            <input type="email" name="email" className="contact_form-input" placeholder='Insert your Email here' />
+                            <input type="email" name="email" className="contact_form-input" placeholder='Insert your email here' />
                         </div>
 
                         <div className="contact_form-div contact_form-area">
                             <label className="contact_form-tag">Project</label>
                             <textarea name="project" cols="30" rows="10"
-                                className="contact_form-input" placeholder="Write about your Doubts/Projrcts">
+                                className="contact_form-input" placeholder="Write about your doubts/projects">
                             </textarea>
                         </div>
 

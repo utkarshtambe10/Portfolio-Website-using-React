@@ -27,6 +27,16 @@
 .home_title {
     font-size: 2.85rem;
     margin-bottom: var(--mb-0-25);
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow-animation 25s linear infinite;
+}
+
+@keyframes rainbow-animation {
+    to {
+        background-position: 100vh;
+    }
 }
 
 .home_hand {

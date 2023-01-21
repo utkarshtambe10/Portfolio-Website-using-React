@@ -62,6 +62,11 @@
 
 .contact_button:hover .contact_button-icon {
     transform: translate(0.25rem);
+    color: var(--title-color-dark);
+}
+
+.contact_button:hover {
+    color: var(--title-color-dark);
 }
 
 .contact_form {
@@ -85,6 +90,7 @@
     border-radius: 0.75rem;
     padding: 1.5rem;
     z-index: 1;
+    font-style: italic;
 }
 
 .contact_form-tag {

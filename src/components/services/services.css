@@ -8,7 +8,7 @@
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--container-color);
-    padding: 6rem 0 2rem 2.5rem;
+    padding: 2rem 0 2rem 2.5rem;
     border-radius: 1.25rem;
 }
 
@@ -41,6 +41,11 @@
 
 .services_button:hover .services_button-icon {
     transform: translateX(0.25rem);
+    color: var(--title-color-dark);
+}
+
+.services_button:hover {
+    color: var(--title-color-dark);
 }
 
 .services_modal {

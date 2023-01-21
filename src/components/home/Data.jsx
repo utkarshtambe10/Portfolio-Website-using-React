@@ -56,8 +56,8 @@ const Data = () => {
             </h1>
 
             <h3 className="home_subtitle">Enthusiast Learner</h3>
-            <p className="home_description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veniam numquam eum nisi officia magnam consectetur?</p>
+            <p className="home_description">I'm Web Developer and Data Science enthusiast based in Pune
+                and I'm very passionate and dedicated to my work.</p>
 
             <a href="#contact" className="button button--flex">
                 Say Hello!
