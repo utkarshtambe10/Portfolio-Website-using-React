@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Website-using-React/static/css/main.aab0b401.css",
+    "main.js": "/Portfolio-Website-using-React/static/js/main.a49c198b.js",
+    "static/js/787.fc08ca26.chunk.js": "/Portfolio-Website-using-React/static/js/787.fc08ca26.chunk.js",
+    "static/media/UtkarshCV.pdf": "/Portfolio-Website-using-React/static/media/UtkarshCV.158fbbebe31bb6c00598.pdf",
+    "static/media/about.jpeg": "/Portfolio-Website-using-React/static/media/about.462cb61f826dc624e1bc.jpeg",
+    "static/media/testimonial3.png": "/Portfolio-Website-using-React/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
+    "static/media/testimonial2.png": "/Portfolio-Website-using-React/static/media/testimonial2.39a53f7f092f07f5bceb.png",
+    "static/media/testimonial1.png": "/Portfolio-Website-using-React/static/media/testimonial1.89079c1d25f2c94ceb89.png",
+    "index.html": "/Portfolio-Website-using-React/index.html",
+    "main.aab0b401.css.map": "/Portfolio-Website-using-React/static/css/main.aab0b401.css.map",
+    "main.a49c198b.js.map": "/Portfolio-Website-using-React/static/js/main.a49c198b.js.map",
+    "787.fc08ca26.chunk.js.map": "/Portfolio-Website-using-React/static/js/787.fc08ca26.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aab0b401.css",
+    "static/js/main.a49c198b.js"
+  ]
+}
